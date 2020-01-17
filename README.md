@@ -8,7 +8,7 @@ When you are rescue mode find driver letter where you windows dir is installed
 
 for me i have c: and d:, in rescue mode c: is e:
 
-dism /ScratchDir:e:\tmp\ /image:e:\ /remove-Package /PackageName:Package_for_KB4534314~31bf3856ad364e35~amd64~~6.1.1.9 
+`dism /ScratchDir:C:\tmp\ /image:C:\ /remove-Package /PackageName:Package_for_KB4534314~31bf3856ad364e35~amd64~~6.1.1.9`
 
 If you want win time download this iso image and mount this image
 
